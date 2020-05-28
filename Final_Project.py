@@ -44,5 +44,5 @@ data.append(go.Scatter(x=centroid['lat'],
                        y=centroid['lng'],
                        mode='markers',
                        marker=dict(size=10,color='#000000')))
-pyo.plot(data,filename='output.html')
+pyo.plot(data,filename='/var/www/html/output.html')
 
